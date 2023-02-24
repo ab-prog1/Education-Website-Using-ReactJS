@@ -1,0 +1,59 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif    !important ; 
+  
+}
+
+
+.titel  {
+  color: #0E2E50;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: 600;
+
+}
+
+.testimonial-item {
+  background: #fff5f4;
+
+}
+.testimonial-carousel .testimonial-item .border {
+  border: 1px dashed  #e93f29 !important;
+}
+.contact-item .icon {
+  padding: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF !important;
+  border-radius: 50px;
+  border: 1px dashed var(--primary) !important;
+}
+.icon .text-primary {
+  color: #e93f29 !important;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fe8686 !important;
+  outline: 0; 
+  box-shadow: none !important;
+}
+
+.form-btn .btn{
+  background-color: #e93f29;
+  color: #fff;
+}
+.form-btn .btn:hover{
+  background-color: #ffffff;
+  color: #e93f29;
+  /* border: #e93f29; */
+  border-color: #e93f29;
+}
+
+.mt {
+  margin-top: 110px;
+}

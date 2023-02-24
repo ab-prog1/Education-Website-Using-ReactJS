@@ -1,0 +1,34 @@
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.search-box {
+  padding: 10px 0px ;
+
+
+}
+.card-search {
+  border: 1px solid #e1dddd;
+  box-shadow: 0 5px 30px rgb(255, 255, 255);
+  margin: 10px 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.more-search{
+  display:none;
+
+}
+.more-filter{
+  cursor: pointer;
+}
+
+
+.search-btn .btn.active{
+  background-color: #e93f29;
+
+} 
+

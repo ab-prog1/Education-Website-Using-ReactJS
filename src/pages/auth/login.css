@@ -1,0 +1,68 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #e2e2e2;
+}
+
+.example-card {
+	transition: transform 0.3s ease-out;
+}
+
+
+
+.example-card .card-header-pills {
+	transition: transform 0.3s ease-out;
+}
+
+
+
+.btn-facebook {
+	background-color: #395694 !important;
+	border-color: #395694 !important;
+}
+
+.btn-twitter {
+	background-color: #1c9ceb !important;
+	border-color: #1c9ceb !important;
+}
+
+.btn-google-plus {
+	background-color: #d64937 !important;
+	border-color: #d64937 !important;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   
+    background: #bc301e !important;
+}
+
+.nav {
+  --bs-nav-link-color: #d64937 !important;
+}
+
+#example-login-tab:hover{
+	color: #ffffff !important;
+}
+
+#example-register-tab:hover {
+    color: #ffffff !important;
+}
+
+
+.form-group .title h3 {
+    color: #0E2E50 !important;
+  } 
+
+
+a {
+    font-size: 14px !important;
+     text-decoration: none !important;
+}
+
+.log-form {
+	margin-top: 110px !important;
+}

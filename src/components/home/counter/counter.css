@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif    !important ; 
+
+}
+
+
+.counts {
+    background: url("../../../../public/images/counter.jpg") center center no-repeat;
+    background-size: auto;
+    padding: 80px 0 60px 0;
+    position: relative;
+    
+   
+  }
+  .counts::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+  }
+  .counts .title {
+    position: relative;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  .counts .title h3 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .counts .counters span {
+    font-size: 48px;
+    display: block;
+    color:  #e93f29;
+  }
+  .counts .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Poppins", sans-serif ;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  
